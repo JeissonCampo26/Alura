@@ -1,3 +1,36 @@
 ls
 git init
 git status
+git add archivo / git add .
+git commit -m "Describir commit"
+git config --global user.mail "jjcampo26@gmail.com"
+git config --global user.name "Jeisson Campo"
+git log
+git config --local user.name "Jeisson Campo"
+clear
+git log --oneline
+git log -p
+git log --pretty="parámetros de formato"
+git add .gitignore
+git commit -m "agregando gitignore"
+mkdir carpeta
+cd servidor/
+git init --bare
+git remote 
+git remote add servidorlocal ruta
+git remote -v
+git clone ruta
+git push servidorlocal master
+git remote rename local servidorlocal
+git pull servidorlocal master
+
+git remote add origin https://github.com/JeissonCampo26/Alura.git
+git push origin master
+
+
+
+
+
+
+
+
