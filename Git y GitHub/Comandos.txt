@@ -27,10 +27,30 @@ git pull servidorlocal master
 git remote add origin https://github.com/JeissonCampo26/Alura.git
 git push origin master
 
+git branch
+git branch titulo
+git checkout titulo
+git checkout -b lista
+git merge titulo
+
+git rebase titulo
+git log --graph
+
+git restore archivo
+git restore --staged archivo
+git log
+git revert {hash}
+
+git stash
+git stash list
+git stash apply <número>
+git stash pop
+git stash drop <número>
+
+git reset HEAD index.html
+git checkout {hash}
 
 
+git diff hash..hash
 
-
-
-
-
+git tag -a nombre -m "mensaje" 
